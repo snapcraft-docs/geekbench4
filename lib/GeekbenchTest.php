@@ -228,7 +228,7 @@ class GeekbenchTest {
       if (($pwd = trim(shell_exec('pwd'))) != $this->options['output']) $dirs[] = $pwd;
       foreach($dirs as $dir) {
         while($dir != dirname($dir)) {
-          if ((is_dir($udir = sprintf('%s/dist/Geekbench-%s-Linux', $dir, $version)) || is_dir($udir = sprintf('%s/Geekbench-%s-Linux', $dir, $version))) && file_exists(sprintf('%s/geekbench_x86_64', $udir))) {
+          if ((is_dir($udir = sprintf('%s/build.pluse/dist/Geekbench-%s-Linux', $dir, $version)) || is_dir($udir = sprintf('%s/Geekbench-%s-Linux', $dir, $version))) && file_exists(sprintf('%s/geekbench_x86_64', $udir))) {
             print_msg(sprintf('Geekbench found in directory %s', $dir), isset($this->options['verbose']), __FILE__, __LINE__);
             $this->options['geekbench_dir'] = $udir;
             break;
