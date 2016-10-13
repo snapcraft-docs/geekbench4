@@ -1,0 +1,86 @@
+Geekbench 4.0.1 Pro : http://www.geekbench.com/
+
+System Information
+  Operating System        Ubuntu 14.04.2 LTS 3.13.0-48-generic x86_64
+  Model                   Xen HVM domU
+  Motherboard             N/A
+  Processor               Intel Xeon E5-2670 v2 @ 2.50 GHz
+                          1 Processor, 2 Threads
+  Processor ID            GenuineIntel Family 6 Model 62 Stepping 4
+  L1 Instruction Cache    32.0 KB
+  L1 Data Cache           32.0 KB
+  L2 Cache                256 KB
+  L3 Cache                25.0 MB
+  Memory                  14.9 GB 
+  BIOS                    Xen 4.2.amazon
+  Compiler                Clang 3.8.0 (tags/RELEASE_380/final)
+
+Single-Core
+  AES                           2645              1.99 GB/sec
+  LZMA                          3179              4.97 MB/sec
+  JPEG                          3344         26.9 Mpixels/sec
+  Canny                         2992         41.5 Mpixels/sec
+  Lua                           2436              2.50 MB/sec
+  Dijkstra                      4440             3.00 MTE/sec
+  SQLite                        2855           79.2 Krows/sec
+  HTML5 Parse                   2718              12.3 MB/sec
+  HTML5 DOM                     2482       2.25 MElements/sec
+  Histogram Equalization        2713         84.8 Mpixels/sec
+  PDF Rendering                 3289         87.4 Mpixels/sec
+  LLVM                          3690      253.7 functions/sec
+  Camera                        3020          8.37 images/sec
+  SGEMM                         1637              34.6 Gflops
+  SFFT                          3325              8.29 Gflops
+  N-Body Physics                2758          2.06 Mpairs/sec
+  Ray Tracing                   2539        370.8 Kpixels/sec
+  Rigid Body Physics            3387               9915.3 FPS
+  HDR                           3205         11.6 Mpixels/sec
+  Gaussian Blur                 3004         52.6 Mpixels/sec
+  Speech Recognition            3717           31.8 Words/sec
+  Face Detection                2906    848.8 Ksubwindows/sec
+  Memory Copy                   2194              6.08 GB/sec
+  Memory Latency                5401     12.5 Moperations/sec
+  Memory Bandwidth              1139              6.09 GB/sec
+
+Multi-Core
+  AES                           2772              2.09 GB/sec
+  LZMA                          4001              6.25 MB/sec
+  JPEG                          4278         34.4 Mpixels/sec
+  Canny                         3932         54.5 Mpixels/sec
+  Lua                           3115              3.20 MB/sec
+  Dijkstra                      5736             3.88 MTE/sec
+  SQLite                        3259           90.4 Krows/sec
+  HTML5 Parse                   3174              14.4 MB/sec
+  HTML5 DOM                     3652       3.31 MElements/sec
+  Histogram Equalization        3114         97.3 Mpixels/sec
+  PDF Rendering                 4116        109.4 Mpixels/sec
+  LLVM                          4496      309.2 functions/sec
+  Camera                        3779          10.5 images/sec
+  SGEMM                         1641              34.7 Gflops
+  SFFT                          3445              8.59 Gflops
+  N-Body Physics                3203          2.39 Mpairs/sec
+  Ray Tracing                   3192        466.2 Kpixels/sec
+  Rigid Body Physics            4432              12974.4 FPS
+  HDR                           4150         15.0 Mpixels/sec
+  Gaussian Blur                 3026         53.0 Mpixels/sec
+  Speech Recognition            5178           44.3 Words/sec
+  Face Detection                3378    986.9 Ksubwindows/sec
+  Memory Copy                   2943              8.15 GB/sec
+  Memory Latency                5382     12.4 Moperations/sec
+  Memory Bandwidth              1369              7.31 GB/sec
+
+Benchmark Summary
+  Single-Core Score             2845
+  Multi-Core Score              3412
+
+
+Uploading results to the Geekbench Browser. This could take a minute or two 
+depending on the speed of your internet connection.
+
+Upload succeeded. Visit the following link and view your results online:
+
+  https://browser.geekbench.com/v4/cpu/736326
+
+Visit the following link and add this result to your profile:
+
+  https://browser.geekbench.com/v4/cpu/736326/claim?key=848793
