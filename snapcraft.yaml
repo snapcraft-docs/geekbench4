@@ -1,0 +1,19 @@
+name: geekbench4
+version: 4.1.0
+summary: Cross-Platform Benchmark
+description: |
+  Geekbench 4 measures your system's power and tells you whether your
+  computer is ready to roar. How strong is your mobile device or desktop
+  computer? How will it perform when push comes to crunch? These are the
+  questions that Geekbench can answer.
+
+confinement: devmode
+
+parts:
+  geekbench4:
+    plugin: dump
+    source: http://cdn.primatelabs.com/Geekbench-$SNAPCRAFT_PROJECT_VERSION-Linux.tar.gz
+
+apps:
+  geekbench4:
+    command: geekbench4
