@@ -9,7 +9,10 @@ description: |
   These are the questions that Geekbench can answer.
 
 confinement: devmode
-base: core18
+base: core22
+lint:
+  ignore:
+    - library
 
 parts:
   geekbench4:
