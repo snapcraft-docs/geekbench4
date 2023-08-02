@@ -10,9 +10,6 @@ description: |
 
 confinement: devmode
 base: core22
-lint:
-  ignore:
-    - library
 
 parts:
   geekbench4:
@@ -22,3 +19,7 @@ parts:
 apps:
   geekbench4:
     command: geekbench4
+
+lint:
+  ignore:
+    - library
