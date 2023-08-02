@@ -14,7 +14,7 @@ base: core22
 parts:
   geekbench4:
     plugin: dump
-    source: http://cdn.geekbench.com/Geekbench-$SNAPCRAFT_PROJECT_VERSION-Linux.tar.gz
+    source: https://cdn.geekbench.com/Geekbench-$SNAPCRAFT_PROJECT_VERSION-Linux.tar.gz
 
 apps:
   geekbench4:
