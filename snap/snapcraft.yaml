@@ -9,13 +9,17 @@ description: |
   These are the questions that Geekbench can answer.
 
 confinement: devmode
-base: core18
+base: core22
 
 parts:
   geekbench4:
     plugin: dump
-    source: http://cdn.geekbench.com/Geekbench-$SNAPCRAFT_PROJECT_VERSION-Linux.tar.gz
+    source: https://cdn.geekbench.com/Geekbench-$SNAPCRAFT_PROJECT_VERSION-Linux.tar.gz
 
 apps:
   geekbench4:
     command: geekbench4
+
+lint:
+  ignore:
+    - library
